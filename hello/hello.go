@@ -3,12 +3,13 @@ package main
 import (
 	"errors"
 	"fmt"
-	"golang.org/x/example/stringutil"
 	"os"
+
+	"golang.org/x/example/hello/reverse"
 )
 
 func main() {
-	fmt.Println(stringutil.Reverse("Hello world!"))
+	fmt.Println(reverse.String("Hello world!"))
 
 	var a int
 	fmt.Println(a)
